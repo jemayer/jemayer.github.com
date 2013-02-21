@@ -42,15 +42,15 @@ Then on the other machine, you need to pull those changes:
 
 ## In general: Publish posts and pages, backup source
 
-After the usual `rake new_post['foo']` or `rake new_page['bar'] procedure, generate and publish new cotent:
+After the usual `rake new_post['foo']` or `rake new_page['bar']` procedure, generate and publish new cotent:
 
     $ rake generate
     $ rake deploy
 
-Commiting the corresponding sources:
+Commit corresponding sources:
 
     $ git add .
     $ git commit -m 'Yet another meaningful commit message'
     $ git push origin source
 
-Be aware that generated static content lives on the master branch (_deploy), being the webroot on GitHub. Blog sources belong to the source branch.
+Be aware that generated static blog content lives on the master branch (`_deploy`), representing the web root directory on GitHub. Blog sources belong to the source branch.
