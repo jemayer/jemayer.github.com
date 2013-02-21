@@ -1,0 +1,376 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+// html { background: image-url('bg-top.jpg') center top no-repeat, image-url('bg-tile.jpg') repeat; }
+html { background: image-url('note_paper.jpeg') repeat; }
+
+// Hide sidebar, remove content border
+body > div > div { border: none; }
+.toggle-sidebar, aside.sidebar  { display: none; }
+
+// Header
+body > header[role="banner"]
+{
+  background: none;
+  text-align: center;
+  h1, h2
+  {
+    font-family: $sans;
+    font-weight: normal;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  h1 { font-size: $header-font-size * 1.6; }
+  h2 { font-size: $header-font-size * 0.5; padding-top: 2em; line-height: 1em; }
+}
+
+// Navigation
+body > nav[role="navigation"]
+{
+  margin: 0 auto;
+  max-width: $nav-max-width;
+
+  background: none;
+
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+  text-align: center;
+
+  display: block;
+
+  padding: 0em;
+  line-height: 1em;
+
+  ul
+  {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    padding: 0em;
+    margin: 0em;
+  }
+  li, li a { border: none; }
+  // Hide RSS subscription
+  ul.subscription { display: none; }
+  a, a:visited
+  {
+    font-family: $serif;
+    font-size: $nav-font-size;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-shadow: none;
+    color: $col-light-grey;
+    padding: 0.5em;
+    margin: 0em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  li a:hover {
+    color: black;
+    // background: $col-dark-grey;
+    //background-color: rgba(50, 50, 50, 0.2);
+    text-shadow: none;
+  }
+}
+
+// Article
+article
+{
+  a:hover { color: $col-mid-red; }
+  header {
+    background: none;
+    border: none;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin-bottom: 0em;
+  }
+  // Adjust elements width to content-max-width, as it seems
+  // the only way to get a responsive layout with "overlapping".
+  p, blockquote, h1, h2, ul, ol {
+    margin: 0 auto;
+    max-width: $content-max-width;
+  }
+  blockquote {
+    padding-bottom: 0.5em;
+    border: none;
+    footer {
+      font-size: .7em;
+      color: $col-mid-grey;
+      line-height: 1em;
+    }
+    p { margin: 0em; } 
+    p + p { margin-top: 1.5em; } 
+  }
+  // Some article header defaults:
+  h1, h2 {
+    font-family: $sans;
+    text-transform: uppercase;
+    text-align: center;
+
+    background: none;
+  }
+  // The headline is allowed to "overlap":
+  h1.entry-title {
+    margin: 0 auto;
+    max-width: $content-max-width * 1.4;
+
+    font-weight: bold;
+    font-size: $header-font-size * 1.5 !important;
+    letter-spacing: .1em;
+
+    text-shadow: 0em .07em .04em #fff;
+
+    a:hover { color: $col-mid-red; }
+    a:visited { text-decoration: none; color: $col-mid-red; }
+  }
+  h1.category-title {
+    margin: 0 auto;
+    max-width: $content-max-width * 1.4;
+    color: $col-light-grey;
+    font-weight: bold;
+    font-style: italic;
+    font-size: $header-font-size * 1.2 !important;
+    letter-spacing: .1em;
+    margin-bottom: 1.5em;
+
+  }
+  h2 {
+    font-size: $header-font-size !important;
+    font-weight: bold;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    text-shadow: 0em .07em .04em #fff;
+  }
+  a, a:visited {
+    color: black;
+    text-decoration: underline;
+  }
+
+  // Center the article content:
+  div.entry-content {
+    margin: 0 auto;
+    a, a:visited {
+      color: black;
+      text-decoration: underline;
+    }
+    a:hover { color: $col-mid-red; }
+    // Some article header definitions:
+    h1 {
+      font-size: $header-font-size * 1.2 !important;
+      font-weight: normal;
+      padding-top: 2em;
+      padding-bottom: 2em;
+    }
+    h2 {
+      font-size: $header-font-size !important;
+      font-weight: bold;
+      padding-top: 1.5em;
+      padding-bottom: 1.5em;
+    }
+  }
+  // Let code and image figures "overlap":
+  figure.code {
+    margin: 0 auto;
+    max-width: $content-max-width * 1.3;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  figure.img_center {
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+
+    figcaption {
+      font-family: $sans;
+      font-size: .6em;
+      letter-spacing: 0.05em;
+      text-align: center;
+      color: $col-light-grey;
+      line-height: 1em;
+    }
+  }
+  blockquote {
+   max-width: $content-max-width * 0.9;
+   color: $col-mid-grey;
+   margin-top: .6em;
+   margin-bottom: .6em;
+   font-size: 1em;
+  }
+  ul, ol {
+   list-style-position:inside;
+   margin-top: 1em;
+   margin-bottom: 1.5em;
+   font-size: .8em;
+   line-height: 1.5em;
+  }
+  li {
+    margin-left: 0em;
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+  p {
+    font-size: .8em;
+    margin-bottom: 1.5em;
+    line-height: 1.5em;
+  }
+  header p.meta {
+    margin: 0 auto;
+    position: relative; top: 0;
+    padding-top: 0px;
+    font-family: $sans;
+    font-size: 0.6em;
+    text-transform: uppercase;
+    text-align: center;
+    color: $col-dark-grey;
+    letter-spacing: .1em;
+    line-height: 1em;
+    margin-bottom: 2.5em;
+
+    a { text-decoration: none; color: $col-light-grey; font-size: 0.9em;}
+    a:hover { color: $col-mid-red; }
+  }
+  span.article-meta {
+    text-transform: lowercase;
+    color: $col-light-grey;
+    letter-spacing: none;
+  }
+  a.category { color: black; text-decoration: underline; border: none; }
+  a.category:hover { color: $col-mid-red; }
+
+  #blog-archives, div.category {
+  max-width: $content-max-width;
+  margin: 0 auto;
+  margin-top: 1.5em;
+
+    h2 { line-height: 1em; padding-top: .7em; padding-bottom: 0em; }
+    article {
+      text-align: left;
+      padding-top: 0em !important;
+      padding-bottom: 0em !important;
+
+      time { 
+        padding-top: 0em;
+      }
+
+      h1 {
+        margin: 0em !important;
+        text-align: left; 
+        a { 
+          line-height: 1em;
+          font-size: 0.6em;
+        }
+        a:hover { text-decoration: none !important; }
+      }
+      footer {
+        font-size: .6em;
+        line-height: 1em;
+      }
+    }
+  }
+}
+
+div.pagination {
+  max-width: 800px;
+  margin: 0 auto !important;
+  padding-bottom: 2em !important;
+  border: none;
+  background: none;
+
+  a.next, a.next:visited, a.prev, a.prev:visited {
+    font-family: $sans;
+    font-size: 0.55em;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: .2em;
+    color: $col-dark-grey !important;
+    padding: 0.8em;
+    //background: $col-superlight-grey;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid $col-light-grey;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    vertical-align: middle;
+  }
+  a.next { margin-right: 2em; }
+  a.prev { margin-left: 2em; }
+  a.next:hover, a.prev:hover {
+    //background: $col-dark-grey;
+    background-color: rgba(50, 50, 50, 0.4);
+    color: white !important;
+    border: 1px solid white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+  }
+}
+
+footer, header {
+  p.meta {
+    text-align: center;
+    text-transform: uppercase;
+    color: $col-dark-grey;
+    letter-spacing: .1em;
+    max-width: 800px;
+    margin-top: 2em;
+    padding-bottom: 1em;
+    line-height: 1em;
+    span.author { font-size: .65em; }
+    span.fn { font-size: 1em; }
+    span { font-size: .65em; }
+    a.basic-alignment {
+     font-size: 0.65em;
+     font-weight: normal;
+     text-transform: uppercase;
+     text-decoration: none;
+     line-height: 1em;
+     letter-spacing: .2em;
+     color: black;
+     padding: 0.8em;
+     background-color: rgba(255, 255, 255, 0.4);
+     border: 1px solid $col-light-grey;
+     -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+     border-radius: 4px;
+     vertical-align: middle;
+    }
+    a.basic-alignment:hover {
+      background-color: rgba(50, 50, 50, 0.3);
+      // background: $col-dark-grey;
+      color: white;
+      border: 1px solid white;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+    }
+  }
+}
+
+section {
+  border-top: 1px dashed $col-light-grey;
+  padding-top: 2em;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1em;
+
+  h1 {
+    font-family: $sans;
+    font-size: .9em;
+    color: $col-dark-grey;
+    text-transform: uppercase;
+  }
+}
+
+footer[role="contentinfo"] {
+  background: none;
+  margin: 0 auto;
+  font-size: 0.5em;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1em;
+}
+
+::-moz-selection { background: $col-hot-pink; color: white; text-shadow: none; }
+::selection { background: $col-hot-pink; color: white; text-shadow: none; }

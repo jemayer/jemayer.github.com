@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Flickr"
+date: 2007-10-27 19:08
+comments: true
+categories: fotografie
+---
+
+{% imgcap img_center /images/fotos_eigene/lighthouse.jpeg "Lighthouse" by Jens Mayer - (CC BY-SA 3.0: some rights reserved) %}
+
+Auch mich gibt es nun [etwas ambitionierter knipsend auf Flickr](http://flickr.com/photos/58561508@N00/ "Jens Mayer auf Flickr") zu sehen:
+
+>»As a rookie in the colorful and fascinating world of photography I’m stumbling through a completely new and unknown territory. Confused by the multifaceted interaction of focal length, aperture and exposure times, my pictures show the first steps in learning basic skills and developing an eye for harmonious compositions. While I don’t know where this journey ends, I have to explore myself to find my focus. Landscapes, sceneries and colorful plants are the first appreciative motives, just because they are that: patient. Looked-for night shots of glittery metropolis are awaiting the acquisition of my first tripod. I love architecture and abstract conceptional arts, the play of lights, shadows and colors, photography of people and faces, stories. Destinations far away. Destinations of a trip that has only just begun.«

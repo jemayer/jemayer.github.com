@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Valtari"
+date: 2012-11-18 22:38
+comments: true
+categories: film
+---
+
+Lange Zeit konnte man mich nur mit sanfter Gewalt zum Besuch von Ballettaufführungen drängen, was saisonal bedingt meist um Weihnachten und Neujahr herum geschah, dem jährichen Scheitelpunkt solcher und anderer, nicht selten auch weniger anspruchsvoll gearteter Tanzveranstaltungen. Es waren oft quälend lange Stunden, in denen mir der Anblick durchaus beneidenswert durchtrainierter Männerkörper in obszön geschnittenen Strumpfhosen die Ernsthaftigkeit posttraumatischer Belastungsstörungen erlebnisreich vor Augen führte.
+
+Spätestens aber Dominique Dumais’ aufwühlende Choreographie zum Leben [Frida Kahlos](http://de.wikipedia.org/wiki/Frida_Kahlo "Wikipedia: Frida Kahlo") – aufgeführt im Mannheimer Nationaltheater – veränderte meinen Blickwinkel nachhaltig: ich entdeckte das moderne Tanztheater, und mit ihm die Anmut und Verletzlichkeit des menschlichen Körpers als kraftvolles Ausdrucksmittel einer packenden Kunstform.
+
+{% vimeo 53394874 %}
+
+Es verwundert also kaum, dass mich die Klangkosmonauten von Sigur Rós mit ihrem Filmexperiment “Valtari” zu fassen bekamen. Im Mittelpunkt des neuen Musikvideos der experimentierfreudigen Isländer steht eine Choreographie von [Sidi Larbi Cherkaoui](http://de.wikipedia.org/wiki/Sidi_Larbi_Cherkaoui "Wikipedia: Sidi Larbi Cherkaoui"), die James O’Hara und Nicola Leahey in wirklich atemberaubender Intensität umsetzten. Regie führte Christian Larson.
