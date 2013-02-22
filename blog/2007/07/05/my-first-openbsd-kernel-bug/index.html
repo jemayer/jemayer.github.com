@@ -1,0 +1,304 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>My first OpenBSD Kernel Bug - A lovely winter riot</title>
+  <meta name="author" content="Jens Mayer">
+
+  
+  <meta name="description" content="Mit pf, pfsync und CARP bietet OpenBSD eine vergleichsweise einfach zu administrierende und dennoch leistungsfähige Infrastruktur für das Failover &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://jemayer.github.com/blog/2007/07/05/my-first-openbsd-kernel-bug/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="A lovely winter riot" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="//use.typekit.net/jys5pxs.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-38533946-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body    class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">A lovely winter riot</a></h1>
+  
+    <h2>Hamburg, Germany.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<ul class="main-navigation">
+  <li><a href="/">Heimseite</a></li>
+  <li><a href="/category/fotografie/">Fotografie</a></li>
+  <li><a href="/category/film/">Film</a></li>
+  <li><a href="/category/ramblings/">Ansichtssachen</a></li>
+  <li><a href="/blog/archives/">Archiviertes</a></li>
+  <li><a href="/pages/backstage/">Backstage</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">My First OpenBSD Kernel Bug</h1>
+    
+    
+      <p class="meta">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+<time datetime="2007-07-05T19:42:00+02:00" pubdate data-updated="true">Thursday, July 5<span>th</span>, 2007</time>
+        
+        <br /><a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Mit <code>pf</code>, <code>pfsync</code> und <a href="http://en.wikipedia.org/wiki/Common_Address_Redundancy_Protocol" title="Wikipedia: Common Address Redundancy Protocol">CARP</a> bietet OpenBSD eine vergleichsweise einfach zu administrierende und dennoch leistungsfähige Infrastruktur für das Failover redundant aufgesetzter Firewalls. Neben dem essentiellen Paketfilter <code>pf</code> kümmert sich <code>pfsync</code> in diesem Szenario um das synchrone Statehandling der verschiedenen Nodes, was bei einem Schwenk des aktiven Firewallrechners im Cluster bestehende Netzwerkverbindungen aufrecht erhält. Der Einsatz des Common Address Redundancy Protocols CARP erledigt auf OSI-Schicht 2 und 3 dabei das eigentliche Procedere zur Hochverfügbarkeit, bei dem es klassischerweise zwischen MASTER- und BACKUP-Rollen auf Interface-Ebene unterscheidet. Eine trotz ihrer Kürze detailreich geschriebene Übersicht zu diesem Thema bietet der Artikel <a href="http://www.countersiege.com/doc/pfsync-carp/">“Firewall Failover with pfsync and CARP”</a>.</p>
+
+<p>Das lange überfällige Upgrade eines schon etwas in die Jahre gekommenen OpenBSD 3.7 Clusters auf Release 4.1 gab mir die Gelegenheit, meinen ersten OpenBSD-Kernelbug - wenn auch eher unfreiwillig und in gewohnt unpassendster Situation - zu entdecken: ein sequentielles Neuladen der Regeln des auf zwei Nodes verteilten Paketfilters führte nach wenigen Iterationen regelmäßig zum Absturz des Systems:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>kernel: page fault trap, code = 0
+</span><span class='line'>Stopped at    pfsync_insert_net_state+0x472:  movl    0(%eax,%edx,4),%edx</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Mit der Analyse des Trace-Outputs (im OpenBSD-Kerneldebugger <code>ddb</code> per <code>trace</code> aufgerufen) kann die betreffende Funktion erkannt und im Quellcode schnell lokalisiert werden. Im Falle des gestorbenen Firewallnodes lässt folgende Ausgabe das Problem auf das Sourcefile <code>sys/net/if_pfsync.c</code> zurückführen:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>pfsync_insert_net_state(e34d4038,1,8,e34d4038) at pfsync_insert_net_state+0x472
+</span><span class='line'>
+</span><span class='line'>pfsync_input(e3486a00,14,0,0,d0d1a034) at pfsync_input+0xa21
+</span><span class='line'>ipv4_input(e3486a00,d0d0e900,0,d08ab000,30) at ipv4_input+0x4f1
+</span><span class='line'>ipintr(d0640058,d30010,d08a0010,d08a0010,d08ab000) at ipintr+0x70
+</span><span class='line'>Bad frame pointer: 0xd08ace24</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Erneut mit Debuginformationen kompiliert und disassembliert finden wir per <code>grep</code> die fehlerhafte Funktion und addieren der dort angegebenen Speicheradresse den Offset aus unserem Trace-Output hinzu:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'># grep “&lt;pfsync_insert_net_state>” if_pfsync.dis
+</span><span class='line'>> 000002f4 &lt;pfsync_insert_net_state></span></code></pre></td></tr></table></div></figure>
+
+
+<p>Adam Riese addiert die Hexadezimalzahlen <code>0x2f4</code> + <code>0x472</code> zu <code>0x766</code> - genau in jener Zeile sollte sich innerhalb unseres disassemblierten Codes die Instruktion aus unserem Kerneltrap finden, und siehe da:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>/usr/src/sys/net/if_pfsync.c:248
+</span><span class='line'>      756:       a1 b4 04 00 00          mov    0x4b4,%eax
+</span><span class='line'>      757:       R_386_32   pf_main_anchor
+</span><span class='line'>      75b:       66 c1 ca 08             ror    $0x8,%dx
+</span><span class='line'>      75f:       c1 ca 10                ror    $0x10,%edx
+</span><span class='line'>      762:       66 c1 ca 08             ror    $0x8,%dx
+</span><span class='line'>      766:       8b 14 90                mov    (%eax,%edx,4),%edx
+</span><span class='line'>      769:       89 55 ec                mov    %edx,0xffffffec(%ebp)
+</span><span class='line'>      76c:       e9 e5 fb ff ff          jmp    356 &lt;pfsync_insert_net_state+0x62>
+</span><span class='line'>      771:       8d 76 00                lea    0x0(%esi),%esi</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Wir haben damit die genaue Zeilenangabe des betreffenden Codeteils innerhalb der Funktion <code>pfsync_insert_net_state</code> gewonnen, welche wir schon im Sourcefile <code>sys/net/if_pfsync.c</code> festmachen konnten. Mit etwas Kontext sprechen also alle Indizien das folgende Konstrukt schuldig:</p>
+
+<figure class='code'><figcaption><span>if_pfsync.c </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span class="cm">/*</span>
+</span><span class='line'><span class="cm">* If the ruleset checksums match, it’s safe to associate the state</span>
+</span><span class='line'><span class="cm">* with the rule of that number.</span>
+</span><span class='line'><span class="cm">*/</span>
+</span><span class='line'><span class="k">if</span> <span class="p">(</span><span class="n">sp</span><span class="o">-&gt;</span><span class="n">rule</span> <span class="o">!=</span> <span class="n">htonl</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="n">sp</span><span class="o">-&gt;</span><span class="n">anchor</span> <span class="o">==</span> <span class="n">htonl</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="n">chksum_flag</span><span class="p">)</span>
+</span><span class='line'>        <span class="n">r</span> <span class="o">=</span> <span class="n">pf_main_ruleset</span><span class="p">.</span><span class="n">rules</span><span class="p">[</span>
+</span><span class='line'>            <span class="n">PF_RULESET_FILTER</span><span class="p">].</span><span class="n">active</span><span class="p">.</span><span class="n">ptr_array</span><span class="p">[</span><span class="n">ntohl</span><span class="p">(</span><span class="n">sp</span><span class="o">-&gt;</span><span class="n">rule</span><span class="p">)];</span>
+</span><span class='line'><span class="k">else</span>
+</span><span class='line'>        <span class="n">r</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">pf_default_rule</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Tiefer bewanderte Kerneldeveloper identifizieren hier eine Racecondition zwischen den Ruleset-Reloads beider Maschinen und stellen - keine 24 Stunden nach meinem Bugreport - den ersten Patch zur Evaluation, der mittlerweile mit Revision 1.83 im CVS des MAIN-Branches enthalten ist. Ich konnte ihn erfolgreich ohne weitere Abstürze unter Stress setzen:</p>
+
+<figure class='code'><figcaption><span>if_pfsync.c </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span class="cm">/*</span>
+</span><span class='line'><span class="cm">* If the ruleset checksums match, it’s safe to associate the state</span>
+</span><span class='line'><span class="cm">* with the rule of that number.</span>
+</span><span class='line'><span class="cm">*/</span>
+</span><span class='line'><span class="k">if</span> <span class="p">(</span><span class="n">sp</span><span class="o">-&gt;</span><span class="n">rule</span> <span class="o">!=</span> <span class="n">htonl</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="n">sp</span><span class="o">-&gt;</span><span class="n">anchor</span> <span class="o">==</span> <span class="n">htonl</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="n">chksum_flag</span> <span class="o">&amp;&amp;</span>
+</span><span class='line'>    <span class="n">ntohl</span><span class="p">(</span><span class="n">sp</span><span class="o">-&gt;</span><span class="n">rule</span><span class="p">)</span> <span class="o">&lt;</span>
+</span><span class='line'>    <span class="n">pf_main_ruleset</span><span class="p">.</span><span class="n">rules</span><span class="p">[</span><span class="n">PF_RULESET_FILTER</span><span class="p">].</span><span class="n">active</span><span class="p">.</span><span class="n">rcount</span><span class="p">)</span>
+</span><span class='line'>        <span class="n">r</span> <span class="o">=</span> <span class="n">pf_main_ruleset</span><span class="p">.</span><span class="n">rules</span><span class="p">[</span>
+</span><span class='line'>            <span class="n">PF_RULESET_FILTER</span><span class="p">].</span><span class="n">active</span><span class="p">.</span><span class="n">ptr_array</span><span class="p">[</span><span class="n">ntohl</span><span class="p">(</span><span class="n">sp</span><span class="o">-&gt;</span><span class="n">rule</span><span class="p">)];</span>
+</span><span class='line'><span class="k">else</span>
+</span><span class='line'>        <span class="n">r</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">pf_default_rule</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Das Fazit: Selbst durchaus unerfreuliche Vorkommnisse bieten bei Verfügbarkeit des Quellcodes das Potential, ungekannte Hintergründe zu verstehen und dabei stets neues zu erlernen. Die Kommunikation mit den Entwicklern freier Software lässt darüber hinaus das gute Gefühl entstehen, selbst als einfacher Bote einer schlechten Nachricht bei der stetigen Verbesserung der quelloffenen Produkte mitwirken zu können.</p>
+
+<p>Denn auch davon lebt Open Source: den ausführlichen Bugreports engagierter User.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+    
+  
+
+<span class="byline author vcard">This entry was posted by <span class="fn">Jens Mayer</span></span>
+ <span>in categories:</span> 
+
+<span>
+  
+    <a class='category' href='/blog/categories/ramblings/'>ramblings</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2007/02/13/i-hate-macs/" title="Previous Post: I hate Macs">&#9668; I hate Macs</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2007/09/20/jessica-simpson/" title="Next Post: You've got it all wrong…">You've got it all wrong… &#9658;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+Some rights reserved: <a href="http://creativecommons.org/licenses/by-sa/3.0/de/">CC BY-SA 3.0</a> - Jens Mayer, 2013 (<a href="/pages/impressum/">Impressum</a>) -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'winterriot';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://jemayer.github.com/blog/2007/07/05/my-first-openbsd-kernel-bug/';
+        var disqus_url = 'http://jemayer.github.com/blog/2007/07/05/my-first-openbsd-kernel-bug/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
