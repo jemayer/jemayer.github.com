@@ -36,7 +36,20 @@ body > nav {
     select{ width: 100%; font-size: .8em; border: 1px solid #888;}
   }
   ul { display: none; }
-  @media only screen and (min-width: 550px) {
+
+  @media only screen and (max-width: 604px) {
+    ul {
+      padding: 0.5em !important;
+      list-style-type: none;
+      a, a:hover, a:visited { text-decoration: none; }
+      a:hover { color: $col-mid-red !important; background: none !important;}
+    }
+    li {
+      font-size: 0.8em;
+      line-height: .8em;
+      }
+  }
+  @media only screen and (min-width: 605px) {
     font-size: .9em;
     ul {
       @include horizontal-list(0);
