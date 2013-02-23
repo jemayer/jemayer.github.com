@@ -6,12 +6,12 @@ Also see: http://blog.zerosharp.com/clone-your-octopress-to-blog-from-two-places
 
 First, clone the source branch to the local octopress folder:
 
-    $ git clone -b source git@github.com:username/username.github.com.git octopress
+    $ git clone -b source git@github.com:jemayer/jemayer.github.com.git octopress
 
 Then, clone the master branch to the _deploy subfolder:
 
     $ cd octopress
-    $ git clone git@github.com:username/username.github.com.git _deploy
+    $ git clone git@github.com:jemayer/jemayer.github.com.git _deploy
 
 Run the rake installation to configure everything:
 
