@@ -67,7 +67,7 @@ module Jekyll
           @class = @img['class']
           @img.delete('class')
         end
-        "<figure class='#{@class}'><img #{@img.collect {|k,v| "#{k}=\"#{v}\"" if v}.join(" ")}><figcaption>#{@img['title']}</figcaption></figure>"
+        "<figure class='#{@class}'><a href='#{@img['src']}' title='#{@img['title']}'' class='fancybox'><img #{@img.collect {|k,v| "#{k}=\"#{v}\"" if v}.join(" ")}></a><figcaption>#{@img['title']}</figcaption></figure>"
       else
         "Error processing input, expected syntax: {% img [class name(s)] [http[s]:/]/path/to/image [width [height]] [title text | \"title text\" [\"alt text\"]] %}"
       end
