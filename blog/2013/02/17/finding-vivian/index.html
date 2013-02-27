@@ -25,6 +25,10 @@
   <script src="/javascripts/ender.js"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="A lovely winter riot" type="application/atom+xml">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript">
+              jQuery.noConflict(); // ender.js conflicts with jQuery
+  </script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -173,7 +177,24 @@ Some rights reserved: <a href="http://creativecommons.org/licenses/by-sa/3.0/de/
 </p>
 
 </footer>
-  
+  <script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox(
+    {
+      padding: '8',
+      prevEffect: 'none',
+      nextEffect: 'none',
+      nextClick: true,
+      autoResize: true,
+      autoCenter: true,
+      arrows: false
+    }
+  );
+})(jQuery);
+</script>
+ 
+
 
 <script type="text/javascript">
       var disqus_shortname = 'winterriot';

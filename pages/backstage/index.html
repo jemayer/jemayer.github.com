@@ -25,6 +25,10 @@
   <script src="/javascripts/ender.js"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="A lovely winter riot" type="application/atom+xml">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript">
+              jQuery.noConflict(); // ender.js conflicts with jQuery
+  </script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -96,13 +100,13 @@
   
   <p>Der Mensch hinter diesem Blog verdient sein Geld irgendwo zwischen Systemadministration und <a href="http://en.wikipedia.org/wiki/DevOps" title="Wikipedia: DevOps">DevOps</a> Engineering bei einer der wundervollsten Firmen von Welt: <a href="http://www.jimdo.com" title="Jimdo - Pages to the People!">Jimdo</a>. In seiner Freizeit liest er viel und fotografiert zu wenig, ist durchdrungen von Musik und investiert ganze Königreiche in das flüssige Gold Schottlands. Frisch verliebt in seine neue Wahlheimat findet man ihn immer seltener artgerecht in gebückter Haltung vorm heimischen Gerät, jedoch umso öfter an Hafen und Elbstrand oder in den Kneipen und Kulturstätten Hamburgs.</p>
 
-<p><figure class='img_center'><img src="/images/fotos_eigene/me.jpeg" title="Untitled by Jens Mayer - (all rights reserved)" ><figcaption>Untitled by Jens Mayer - (all rights reserved)</figcaption></figure></p>
+<p><figure class='img_center'><a href='/images/fotos_eigene/me.jpeg' title='Untitled by Jens Mayer - (all rights reserved)' rel='fancyGallery'' class='fancybox'><img src="/images/fotos_eigene/me.jpeg" title="Untitled by Jens Mayer - (all rights reserved)" ></a><figcaption>Untitled by Jens Mayer - (all rights reserved)</figcaption></figure></p>
 
 <p>Die nachfolgende Selbstbeschreibung soll also zur ersten, groben Verortung ihn interessierender und damit auf diesem Blog potentiell behandelter Themen in ihrer Kürze ausreichen. Sie verschweigt den historisch gewachsenen Fanboy nur aus stilistischen Gründen und ist unvollständig:</p>
 
 <blockquote><p>„A music lover, vinyl enthusiast, guitar player, wannabe photographer, unix geek, whisky maniac, caffeine junkie and seasonal non smoker.“</p></blockquote>
 
-<p>In Zeiten der <a href="http://de.wikipedia.org/wiki/Post-Privacy" title="Wikipedia: Post-Privacy">Post-Privacy</a> bietet sich ambitionierten Hobbypsychologen darüber hinaus ein Strauß diverser Netzbiotope wie <a href="https://www.facebook.com/jens.mayer" title="Facebook-Profil Jens Mayer">Facebook</a> oder <a href="https://plus.google.com/111775974068560084573" title="Google+-Profil Jens Mayer">Google+</a> für erste Fingerübungen an, eine Ferndiagnose akuter Indikationen mag per <a href="https://twitter.com/winterriot" title="Twitter-Stream Jens Mayer">Twitter</a> dagegen auch kurzfristiger gelingen.</p>
+<p>In Zeiten der <a href="http://de.wikipedia.org/wiki/Post-Privacy" title="Wikipedia: Post-Privacy">Post-Privacy</a> bietet sich ambitionierten Hobbypsychologen darüber hinaus ein Strauß diverser Netzbiotope wie <a href="https://www.facebook.com/jens.mayer" title="Facebook-Profil Jens Mayer">Facebook</a> oder <a href="https://plus.google.com/111775974068560084573" title="Google+-Profil Jens Mayer">Google+</a> für erste Fingerübungen an, eine Ferndiagnose akuter Indikationen mag per <a href="https://twitter.com/winterriot" title="Twitter-Stream Jens Mayer">Twitter</a> oder <a href="https://alpha.app.net/winterriot" title="Jens Mayer auf App.net">App.net</a> dagegen auch kurzfristiger gelingen.</p>
 
 <p>Weiteres visuelles Verlangen kann auf <a href="http://www.flickr.com/photos/basq/" title="Flickr-Profil Jens Mayer">Flickr</a>, <a href="http://instagram.com/basquiat" title="Instagram-Profil Jens Mayer">Instagram</a> und <a href="http://www.eyeem.com/u/jensmayer" title="EyeEm-Profil Jens Mayer">EyeEm</a> nachhaltig befriedigt werden, ein Geschmacksabgleich auf musikalischer Ebene lässt sich indessen per <a href="http://www.last.fm/user/basq" title="Last.fm-Profil Jens Mayer">Last.fm</a> oder Spotify zielführender vornehmen.</p>
 
@@ -163,7 +167,24 @@ Some rights reserved: <a href="http://creativecommons.org/licenses/by-sa/3.0/de/
 </p>
 
 </footer>
-  
+  <script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox(
+    {
+      padding: '8',
+      prevEffect: 'none',
+      nextEffect: 'none',
+      nextClick: true,
+      autoResize: true,
+      autoCenter: true,
+      arrows: false
+    }
+  );
+})(jQuery);
+</script>
+ 
+
 
 
 

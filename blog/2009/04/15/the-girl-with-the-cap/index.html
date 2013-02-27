@@ -25,6 +25,10 @@
   <script src="/javascripts/ender.js"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="A lovely winter riot" type="application/atom+xml">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript">
+              jQuery.noConflict(); // ender.js conflicts with jQuery
+  </script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -105,7 +109,7 @@
   </header>
 
 
-<div class="entry-content"><p><figure class='img_center'><img src="/images/fotos_eigene/the_girl_with_the_cap.jpeg" title="“The Girl with the Cap” by Jens Mayer - (all rights reserved)" ><figcaption>“The Girl with the Cap” by Jens Mayer - (all rights reserved)</figcaption></figure></p>
+<div class="entry-content"><p><figure class='img_center'><a href='/images/fotos_eigene/the_girl_with_the_cap.jpeg' title='“The Girl with the Cap” by Jens Mayer - (all rights reserved)' rel='fancyGallery'' class='fancybox'><img src="/images/fotos_eigene/the_girl_with_the_cap.jpeg" title="“The Girl with the Cap” by Jens Mayer - (all rights reserved)" ></a><figcaption>“The Girl with the Cap” by Jens Mayer - (all rights reserved)</figcaption></figure></p>
 
 <p>Dieses Portrait ist ein weiteres Ergebnis meiner Experimente mit <a href="/blog/2009/02/21/selbst-ist-das-licht/" title="Jens Mayer: Selbst ist das Licht">einem aus Baumarktartikeln assemblierten Ringlicht</a> und für mich der klare Favorit dieser kleinen Serie.</p>
 </div>
@@ -162,7 +166,24 @@ Some rights reserved: <a href="http://creativecommons.org/licenses/by-sa/3.0/de/
 </p>
 
 </footer>
-  
+  <script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox(
+    {
+      padding: '8',
+      prevEffect: 'none',
+      nextEffect: 'none',
+      nextClick: true,
+      autoResize: true,
+      autoCenter: true,
+      arrows: false
+    }
+  );
+})(jQuery);
+</script>
+ 
+
 
 <script type="text/javascript">
       var disqus_shortname = 'winterriot';

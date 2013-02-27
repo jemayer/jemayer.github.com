@@ -4,7 +4,7 @@
   <title><![CDATA[Archiv: ramblings | A lovely winter riot]]></title>
   <link href="http://jemayer.github.com/blog/categories/ramblings/atom.xml" rel="self"/>
   <link href="http://jemayer.github.com/"/>
-  <updated>2013-02-22T18:34:33+01:00</updated>
+  <updated>2013-02-27T03:00:16+01:00</updated>
   <id>http://jemayer.github.com/</id>
   <author>
     <name><![CDATA[Jens Mayer]]></name>
@@ -18,7 +18,7 @@
     <link href="http://jemayer.github.com/blog/2013/02/19/relaunch/"/>
     <updated>2013-02-19T16:18:00+01:00</updated>
     <id>http://jemayer.github.com/blog/2013/02/19/relaunch</id>
-    <content type="html"><![CDATA[<p><figure class='img_center'><img src="/images/fotos_eigene/softprocessed.jpg" title="Untitled by Jens Mayer - (CC BY-SA 3.0: some rights reserved)" ><figcaption>Untitled by Jens Mayer - (CC BY-SA 3.0: some rights reserved)</figcaption></figure></p>
+    <content type="html"><![CDATA[<p><figure class='img_center'><a href='/images/fotos_eigene/softprocessed.jpg' title='Untitled by Jens Mayer - (CC BY-SA 3.0: some rights reserved)' rel='fancyGallery'' class='fancybox'><img src="/images/fotos_eigene/softprocessed.jpg" title="Untitled by Jens Mayer - (CC BY-SA 3.0: some rights reserved)" ></a><figcaption>Untitled by Jens Mayer - (CC BY-SA 3.0: some rights reserved)</figcaption></figure></p>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 ]]></content>
@@ -29,7 +29,7 @@
     <link href="http://jemayer.github.com/blog/2009/02/01/where-do-you-take-things-to/"/>
     <updated>2009-02-01T03:01:00+01:00</updated>
     <id>http://jemayer.github.com/blog/2009/02/01/where-do-you-take-things-to</id>
-    <content type="html"><![CDATA[<p><figure class='img_center'><img src="/images/misc/where_do_you_take_things_to.jpeg"><figcaption></figcaption></figure></p>
+    <content type="html"><![CDATA[<p><figure class='img_center'><a href='/images/misc/where_do_you_take_things_to.jpeg' title='' rel='fancyGallery'' class='fancybox'><img src="/images/misc/where_do_you_take_things_to.jpeg"></a><figcaption></figcaption></figure></p>
 
 <p>Auf den Schultern von <a href="http://en.wikipedia.org/wiki/Jim_Jarmusch" title="Jim Jarmusch">Giganten</a>, so don’t let the fuckers get ya: <a href="http://www.jim-jarmusch.net/miscellanea/author_jim_jarmusch/my_golden_rules.html" title="Jim Jarmusch: My Golden Rules">Eine von fünf geklaut</a>.  Remember what <a href="http://de.wikipedia.org/wiki/Jean-Luc_Godard" title="Wikipedia: Jean-Luc Godard">Jean-Luc Godard</a> said? „It’s not where you take things from – it’s where you take them to.“</p>
 ]]></content>

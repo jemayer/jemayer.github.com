@@ -25,6 +25,10 @@
   <script src="/javascripts/ender.js"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="A lovely winter riot" type="application/atom+xml">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript">
+              jQuery.noConflict(); // ender.js conflicts with jQuery
+  </script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -105,7 +109,7 @@
   </header>
 
 
-<div class="entry-content"><p><figure class='img_center'><img src="/images/fotos_eigene/ringlight.jpeg" title="&#34;Ringlight&#34; by Jens Mayer – (all rights reserved)" alt="&#34;Ringlight&#34; by Jens Mayer – (all rights reserved)"><figcaption>&#34;Ringlight&#34; by Jens Mayer – (all rights reserved)</figcaption></figure></p>
+<div class="entry-content"><p><figure class='img_center'><a href='/images/fotos_eigene/ringlight.jpeg' title='&#34;Ringlight&#34; by Jens Mayer – (all rights reserved)' rel='fancyGallery'' class='fancybox'><img src="/images/fotos_eigene/ringlight.jpeg" title="&#34;Ringlight&#34; by Jens Mayer – (all rights reserved)" alt="&#34;Ringlight&#34; by Jens Mayer – (all rights reserved)"></a><figcaption>&#34;Ringlight&#34; by Jens Mayer – (all rights reserved)</figcaption></figure></p>
 
 <p>Obwohl handwerklich auf ganzer Linie talentbefreit, musste ich nach Lektüre von <a href="http://kwerfeldein.de/index.php/2008/07/26/faszination-ringlicht-bauen-nicht-bauen-lassen/" title="Kwerfeldein: Faszinatoin Ringlicht">Sebastians Gastartikel auf kwerfeldein.de</a> schleunigst selbst Hand anlegen und mir aus gängigen Baumarktartikeln ein ureigenes Ringlicht assemblieren. Die Neugierde auf fotografische Experimente war schließlich größer als die Angst vor einer weiteren Schmach im real nicht existierenden Bastelkeller, und selbst wenn manch wackeliger Kontakt noch der letzterlösenden Fixierung durch gekonnt grobmotorisch aufgetragenen Heisskleber harrt: die Werkarbeiten haben brauchbares hervorgebracht, so dass mit ausgewählten Kostproben zukünftiger Einsätze unbedingt zu rechnen ist.</p>
 </div>
@@ -162,7 +166,24 @@ Some rights reserved: <a href="http://creativecommons.org/licenses/by-sa/3.0/de/
 </p>
 
 </footer>
-  
+  <script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox(
+    {
+      padding: '8',
+      prevEffect: 'none',
+      nextEffect: 'none',
+      nextClick: true,
+      autoResize: true,
+      autoCenter: true,
+      arrows: false
+    }
+  );
+})(jQuery);
+</script>
+ 
+
 
 <script type="text/javascript">
       var disqus_shortname = 'winterriot';
