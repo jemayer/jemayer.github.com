@@ -2,6 +2,7 @@
 // Add styles here to make changes without digging in too much
 // html { background: image-url('bg-top.jpg') center top no-repeat, image-url('bg-tile.jpg') repeat; }
 html { background: image-url('note_paper.jpeg') repeat; }
+body { font-family: $typewriter; }
 
 // Hide sidebar, remove content border
 body > div > div { border: none; }
@@ -54,7 +55,7 @@ body > nav[role="navigation"]
   ul.subscription { display: none; }
   a, a:visited
   {
-    font-family: $serif;
+    font-family: $typewriter;
     font-size: $nav-font-size;
     letter-spacing: .1em;
     text-transform: uppercase;
