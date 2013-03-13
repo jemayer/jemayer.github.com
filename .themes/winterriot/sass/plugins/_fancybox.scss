@@ -161,7 +161,8 @@
         overflow: hidden;
         display: none;
         z-index: 8010;
-        background: #002b36;
+        //background: #002b36;
+        background: image-url('spotbg.png') repeat;
         opacity: 1 !important;
 }
 
@@ -200,7 +201,7 @@
         margin-right: -100%;
         padding: 2px 20px;
         background: none;
-        color: #FFF;
+        color: $col-dark-grey;
         font-family: $typewriter;
         font-weight: normal;
         line-height: 1em;

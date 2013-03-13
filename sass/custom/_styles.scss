@@ -1,7 +1,7 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 // html { background: image-url('bg-top.jpg') center top no-repeat, image-url('bg-tile.jpg') repeat; }
-html { background: image-url('note_paper.jpeg') repeat; }
+html { background: image-url('spotbg.png') repeat; }
 body { font-family: $typewriter; }
 
 // Hide sidebar, remove content border
@@ -121,7 +121,7 @@ article
 
     text-shadow: 0em .07em .04em #fff;
 
-    a:hover { color: $col-mid-red; }
+    a:hover { color: $col-old-blue; }
     a:visited { text-decoration: none; color: $col-mid-red; }
   }
   h1.category-title {
@@ -186,7 +186,7 @@ article
       font-size: .6em;
       letter-spacing: 0.05em;
       text-align: center;
-      color: $col-light-grey;
+      color: $col-mid-grey;
       line-height: 1em;
     }
   }
@@ -279,32 +279,32 @@ div.pagination {
 
   a.next, a.next:visited, a.prev, a.prev:visited {
     font-family: $sans;
-    font-size: 0.55em;
-    font-weight: normal;
+    font-size: 0.6em;
+    font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 1em;
     letter-spacing: .2em;
-    color: $col-dark-grey !important;
-    padding: 0.8em;
+    color: $col-old-white !important;
+    padding: 1em;
     //background: $col-superlight-grey;
-    background-color: rgba(255, 255, 255, 0.4);
-    border: 1px solid $col-light-grey;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
+    background-color: $col-dark-grey;
+    border: 4px solid $col-old-white;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
     vertical-align: middle;
   }
   a.next { margin-right: 2em; }
   a.prev { margin-left: 2em; }
   a.next:hover, a.prev:hover {
     //background: $col-dark-grey;
-    background-color: rgba(50, 50, 50, 0.4);
-    color: white !important;
-    border: 1px solid white;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
+    background-color: $col-dark-grey;
+    color: $col-old-white !important;
+    border: 4px solid darken($col-old-white, 15%);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
   }
 }
 
@@ -323,28 +323,28 @@ footer, header {
     span { font-size: .65em; }
     a.basic-alignment {
      font-size: 0.65em;
-     font-weight: normal;
+     font-weight: bold;
      text-transform: uppercase;
      text-decoration: none;
      line-height: 1em;
      letter-spacing: .2em;
-     color: black;
-     padding: 0.8em;
-     background-color: rgba(255, 255, 255, 0.4);
-     border: 1px solid $col-light-grey;
-     -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-     border-radius: 4px;
+     color: $col-old-white;
+     padding: 1em;
+     background-color: $col-dark-grey;
+     border: 4px solid $col-old-white;
+     -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+     border-radius: 8px;
      vertical-align: middle;
     }
     a.basic-alignment:hover {
-      background-color: rgba(50, 50, 50, 0.3);
+      background-color: $col-dark-grey;
       // background: $col-dark-grey;
-      color: white;
-      border: 1px solid white;
-      -webkit-border-radius: 4px;
-      -moz-border-radius: 4px;
-      border-radius: 4px;
+      color: $col-old-white;
+      border: 4px solid darken($col-old-white, 15%);
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      border-radius: 8px;
     }
   }
 }
