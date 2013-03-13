@@ -1,3 +1,8 @@
+# BUGS
+
+* Blockquote: Vereinheitlichung Blog- und Artikelansicht
+* Farbschema Codeblock
+
 # TODO
 
 * Disqus: Askimet API-Key (SPAM protection)
