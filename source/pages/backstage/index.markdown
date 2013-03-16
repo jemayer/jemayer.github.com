@@ -21,8 +21,6 @@ Visuelle Versuche eigenen Ausdrucks lassen sich – "safe for work" – auf  [Fl
 Jeder Konsum von Klangkonserven wird darüber hinaus akribisch auf den Serverfarmen von
 [Last.fm](http://www.last.fm/user/basq "Last.fm-Profil Jens Mayer") festgehalten und unter Zuhilfenahme statistischer Methoden schonungslos durchleuchtet.
 
-Moderne Kopfgeldjäger, die nach Lektüre aller Fundstücke noch nicht mutlos und verschreckt abschwören, mögen sich auf [XING](https://www.xing.com/profile/Jens_Mayer2 "XING-Profil Jens Mayer") und [Linkedin](http://www.linkedin.com/in/jensmayer "Linkedin-Profil Jens Mayer") mit obszön überbezahlten Angeboten messen.
-
-Wer unbedingt maßlos Gutes tun will, der [tut das hier](http://www.amazon.de/gp/registry/registry.html?ie=UTF8&type=wishlist&id=38FI6BLISOJV7 "Amazon Wishlist: Jens Mayer").
+Moderne Kopfgeldjäger, die nach Lektüre aller Fundstücke noch nicht mutlos und verschreckt abschwören, mögen sich auf [XING](https://www.xing.com/profile/Jens_Mayer2 "XING-Profil Jens Mayer") und [Linkedin](http://www.linkedin.com/in/jensmayer "Linkedin-Profil Jens Mayer") mit obszön überbezahlten Angeboten messen. Wer abseits dessen maßlos Gutes tun will, der [tut das hier](http://www.amazon.de/gp/registry/registry.html?ie=UTF8&type=wishlist&id=38FI6BLISOJV7 "Amazon Wishlist: Jens Mayer").
 
 Zum Schluß das Letzte: ein [Impressum](/pages/impressum/ "Impressum") samt vielfältiger  Möglichkeiten zur Kontaktaufnahme.
