@@ -1,7 +1,7 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 // html { background: image-url('bg-top.jpg') center top no-repeat, image-url('bg-tile.jpg') repeat; }
-html { background: image-url('spotbg.png') repeat; }
+html { background: image-url('spotbg.png') repeat $col-old-white; }
 body { font-family: $typewriter; }
 
 // Hide sidebar, remove content border

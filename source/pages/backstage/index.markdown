@@ -15,13 +15,15 @@ Die nachfolgende Selbstbeschreibung soll damit zur ersten, groben Verortung ihn 
 
 >„A music lover, vinyl enthusiast, guitar player, wannabe photographer, whisky maniac, caffeine junkie and seasonal non smoker.“
 
-Auf eigenes Risiko kann der traditionelle Netzexhibitionismus des Autoren zu Zeiten der [Post-Privacy](http://de.wikipedia.org/wiki/Post-Privacy "Wikipedia: Post-Privacy") weiter entworren werden. Es bietet sich ambitionierten Hobbypsychologen dazu ein Strauß diverser Netzbiotope wie [Facebook](https://www.facebook.com/jens.mayer "Facebook-Profil Jens Mayer") oder [Google+](https://plus.google.com/111775974068560084573 "Google+-Profil Jens Mayer") für erste Fingerübungen an, eine Ferndiagnose akuter Indikationen mag per [Twitter](https://twitter.com/winterriot "Twitter-Stream Jens Mayer") oder [App.net](https://alpha.app.net/winterriot "Jens Mayer auf App.net") sogar kurzfristiger gelingen.
+Auf eigenes Risiko kann der traditionelle Netzexhibitionismus des Autoren zu Zeiten der [Post-Privacy](http://de.wikipedia.org/wiki/Post-Privacy "Wikipedia: Post-Privacy") weiter entworren werden. Es bietet sich ambitionierten Hobbypsychologen dazu ein Strauß diverser Netzbiotope wie [Facebook](https://www.facebook.com/jens.mayer "Facebook-Profil Jens Mayer") oder [Google+](https://plus.google.com/111775974068560084573 "Google+-Profil Jens Mayer") für erste Fingerübungen an. Eine Ferndiagnose akuter Indikationen mag per [Twitter](https://twitter.com/winterriot "Twitter-Stream Jens Mayer") oder [App.net](https://alpha.app.net/winterriot "Jens Mayer auf App.net") sogar kurzfristiger gelingen.
 
-Visuelle Versuche eigenen Ausdrucks lassen sich halbwegs familiensicher auf [Flickr](http://www.flickr.com/photos/basq/ "Flickr-Profil Jens Mayer"), [Instagram](http://instagram.com/basquiat "Instagram-Profil Jens Mayer") und [EyeEm](http://www.eyeem.com/u/jensmayer "EyeEm-Profil Jens Mayer") bewundern. Jeder Konsum von Klangkonserven wird darüber hinaus akribisch auf den Serverfarmen von
+Visuelle Versuche eigenen Ausdrucks lassen sich halbwegs familiensicher auf [Flickr](http://www.flickr.com/photos/basq/ "Flickr-Profil Jens Mayer"), [Instagram](http://instagram.com/basquiat "Instagram-Profil Jens Mayer") oder  [EyeEm](http://www.eyeem.com/u/jensmayer "EyeEm-Profil Jens Mayer") bewundern.
+
+Jeder Konsum von Klangkonserven wird darüber hinaus akribisch auf den Serverfarmen von
 [Last.fm](http://www.last.fm/user/basq "Last.fm-Profil Jens Mayer") festgehalten und unter Zuhilfenahme statistischer Methoden schonungslos durchleuchtet.
 
 Moderne Kopfgeldjäger, die nach Lektüre aller Fundstücke noch nicht mutlos und verschreckt abschwören, mögen sich auf [XING](https://www.xing.com/profile/Jens_Mayer2 "XING-Profil Jens Mayer") und [Linkedin](http://www.linkedin.com/in/jensmayer "Linkedin-Profil Jens Mayer") mit obszön überbezahlten Angeboten messen.
 
-Wer abseits dessen maßlos Gutes tun will, der [tut das hier](http://www.amazon.de/gp/registry/registry.html?ie=UTF8&type=wishlist&id=38FI6BLISOJV7 "Amazon Wishlist: Jens Mayer").
+Wer unbedingt maßlos Gutes tun will, der [tut das hier](http://www.amazon.de/gp/registry/registry.html?ie=UTF8&type=wishlist&id=38FI6BLISOJV7 "Amazon Wishlist: Jens Mayer").
 
-Das Letzte zum Schluß: ein [Impressum](/pages/impressum/ "Impressum") samt weiterer Möglichkeiten der Kontaktaufnahme.
+Zum Schluß das Letzte: ein [Impressum](/pages/impressum/ "Impressum") samt vielfälgiter  Möglichkeiten zur Kontaktaufnahme.
