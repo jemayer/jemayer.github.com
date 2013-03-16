@@ -13,7 +13,7 @@ Der Mensch hinter diesem Blog verdient sein Geld irgendwo zwischen Systemadminis
 
 Die nachfolgende Selbstbeschreibung soll also zur ersten, groben Verortung ihn interessierender und damit auf diesem Blog potentiell behandelter Themen in ihrer Kürze ausreichen. Sie verschweigt den historisch gewachsenen Fanboy nur aus stilistischen Gründen und ist unvollständig:
 
->„A music lover, vinyl enthusiast, guitar player, wannabe photographer, unix geek, whisky maniac, caffeine junkie and seasonal non smoker.“
+>„A music lover, vinyl enthusiast, guitar player, wannabe photographer, whisky maniac, caffeine junkie and seasonal non smoker. Currently somewhere in between devops engineering and agile kung fu at [Jimdo](http://www.jimdo.com "Jimdo: Pages to the People!").“
 
 In Zeiten der [Post-Privacy](http://de.wikipedia.org/wiki/Post-Privacy "Wikipedia: Post-Privacy") bietet sich ambitionierten Hobbypsychologen darüber hinaus ein Strauß diverser Netzbiotope wie [Facebook](https://www.facebook.com/jens.mayer "Facebook-Profil Jens Mayer") oder [Google+](https://plus.google.com/111775974068560084573 "Google+-Profil Jens Mayer") für erste Fingerübungen an, eine Ferndiagnose akuter Indikationen mag per [Twitter](https://twitter.com/winterriot "Twitter-Stream Jens Mayer") oder [App.net](https://alpha.app.net/winterriot "Jens Mayer auf App.net") dagegen auch kurzfristiger gelingen.
 
