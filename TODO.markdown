@@ -1,7 +1,3 @@
-# BUGS
-
-* Blockquote: Vereinheitlichung Blog- und Artikelansicht
-
 # TODO
 
 * Disqus: Askimet API-Key (SPAM protection)
