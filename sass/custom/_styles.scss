@@ -95,9 +95,11 @@ article
     padding-bottom: 0.5em;
     border: none;
     footer {
+      font-family: $sans;
       font-size: .7em;
       color: $col-mid-grey;
       line-height: 1em;
+      padding-top: .9em;
     }
     p { margin: 0em; } 
     p + p { margin-top: 1.5em; } 
