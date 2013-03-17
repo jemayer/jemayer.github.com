@@ -1,6 +1,14 @@
 // Here you can easily change font faces which are used in your site.
 // To give it a try, uncomment some of the lines below rebuild your blog, and see how it works. your sites's.
 // If you love to use Web Fonts, you also need to add some lines to source/_includes/custom/head.html
+@font-face {
+  font-family: entypo-social;
+  src: url(/assets/entypo-social/entypo-social.ttf), url(/assets/entypo-social/entypo-social.eot);
+}
+@font-face {
+  font-family: entypo;
+  src: url(/assets/entypo/entypo.ttf), url(/assets/entypo/entypo.eot);
+}
 
 $sans: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $serif: "ff-tisa-web-pro-1", Georgia, Times, "Times New Roman", serif;
