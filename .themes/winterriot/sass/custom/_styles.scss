@@ -27,7 +27,9 @@ body > header[role="banner"]
 // Navigation
 body > nav[role="navigation"]
 {
+
   margin: 0 auto;
+  margin-bottom: 2em;
   max-width: $nav-max-width;
 
   background: none;
@@ -55,19 +57,19 @@ body > nav[role="navigation"]
   ul.subscription { display: none; }
   a, a:visited
   {
-    font-family: $typewriter;
+    font-family: $sans;
     font-size: $nav-font-size;
     letter-spacing: .1em;
     text-transform: uppercase;
     text-shadow: none;
-    color: $col-light-grey;
+    color: black;
     padding: 0.5em;
     margin: 0em;
     padding-top: 1em;
     padding-bottom: 1em;
   }
   li a:hover {
-    color: black;
+    color: $col-mid-red;
     // background: $col-dark-grey;
     //background-color: rgba(50, 50, 50, 0.2);
     text-shadow: none;
