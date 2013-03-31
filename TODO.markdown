@@ -1,5 +1,7 @@
 # TODO
 
+* Body text: Classic serif font
+
 * Disqus: Askimet API-Key (SPAM protection)
 * Externe Blog-URL auf GitHub legen (DNS, 1&1)
 * OpenGraph Geshizzle: http://ogp.me

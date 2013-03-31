@@ -2,7 +2,7 @@
 // Add styles here to make changes without digging in too much
 // html { background: image-url('bg-top.jpg') center top no-repeat, image-url('bg-tile.jpg') repeat; }
 html { background: image-url('spotbg.png') repeat $col-old-white; }
-body { font-family: $typewriter; }
+body { font-family: $sans2; }
 
 // Hide sidebar, remove content border
 body > div > div { border: none; }
@@ -81,6 +81,7 @@ article
 {
   a:hover { color: $col-mid-red; }
   header {
+    font-weight: 300;
     background: none;
     border: none;
     padding-top: 0em;
@@ -119,13 +120,13 @@ article
     margin: 0 auto;
     max-width: $content-max-width * 1.4;
 
-    font-weight: bold;
+    font-weight: normal;
     font-size: $header-font-size * 1.5 !important;
     letter-spacing: .1em;
 
     text-shadow: 0em .07em .04em #fff;
 
-    a:hover { color: $col-old-blue; }
+    a:hover { color: $col-mid-red; }
     a:visited { text-decoration: none; color: $col-mid-red; }
   }
   h1.category-title {
@@ -205,7 +206,9 @@ article
    list-style-position:inside;
    margin-top: 1em;
    margin-bottom: 1.5em;
+   font-family: $sans2;
    font-size: .8em;
+   font-weight: 300;
    line-height: 1.5em;
   }
   li {
@@ -214,7 +217,9 @@ article
     text-indent: -1em;
   }
   p {
+    font-family: $sans2;
     font-size: .8em;
+    font-weight: 300;
     margin-bottom: 1.5em;
     line-height: 1.5em;
   }

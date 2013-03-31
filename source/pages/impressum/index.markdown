@@ -9,7 +9,7 @@ footer: false
 
 <div style='text-align: center'>
 {% blockquote William Shakespeare, Henry VI: Part II - Act IV - Scene II %}
-“The first thing we do, let’s kill all the lawyers.”
+„The first thing we do, let’s kill all the lawyers.“
 {% endblockquote %}
 </div>
 
