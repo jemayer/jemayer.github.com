@@ -6,7 +6,7 @@ comments: true
 categories: ramblings
 ---
 
-{% imgcap img_center /images/fotos_eigene/adam.jpeg Untitled by Jens Mayer - (CC BY-SA 3.0: some rights reserved) %}
+{% imgcap img_center /images/fotos_eigene/adam.jpeg Untitled – by Jens Mayer – CC BY-SA 3.0 – some rights reserved %}
 
 {% blockquote Adam Green, Jessica %}
 „Jessica Simpson, you've got it all wrong, your fraudulent smile, the way that you faked it the day that you died.“

@@ -6,7 +6,7 @@ comments: true
 categories: fotografie
 ---
 
-{% imgcap img_center /images/fotos_eigene/lighthouse.jpeg "Lighthouse" by Jens Mayer - (CC BY-SA 3.0: some rights reserved) %}
+{% imgcap img_center /images/fotos_eigene/lighthouse.jpeg Lighthouse – by Jens Mayer – CC BY-SA 3.0 – some rights reserved %}
 
 Auch mich gibt es nun [etwas ambitionierter knipsend auf Flickr](http://flickr.com/photos/58561508@N00/ "Jens Mayer auf Flickr") zu sehen:
 
