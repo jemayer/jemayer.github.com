@@ -107,7 +107,7 @@ big { font-size: 1.2em; }
 
 blockquote {
   $bq-margin: 1.2em;
-  font-style: italic;
+  font-style: normal;
   position: relative;
   font-size: 1.2em;
   line-height: 1.5em;
@@ -115,7 +115,7 @@ blockquote {
   border-left: 4px solid rgba($text-color-light, .5);
   cite {
     font-family: $sans;
-    font-style: italic;
+    font-style: normal;
     a { color: $text-color-light !important; word-wrap: break-word; }
     &:before { content: '\2014'; padding:{right: .3em; left: .3em;} color: $text-color-light; }
   }

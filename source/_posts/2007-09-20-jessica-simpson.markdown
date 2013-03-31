@@ -12,7 +12,7 @@ categories: ramblings
 „Jessica Simpson, you've got it all wrong, your fraudulent smile, the way that you faked it the day that you died.“
 {% endblockquote %}
 
-*(Ein versprochener Rapport)*
+(Ein versprochener Rapport)
 
 Adam Green, der Junge mit der Gitarre. Nur er klampft garantiert noch beschissener als Neil Young und gewinnt auch am Klavier keine Nachwuchspreise, singt dafür zum Ausgleich aber deutlich besser als Bob Dylan. Unter dieser Prämisse wurde in der Alten Feuerwache in Mannheim beinahe perfektes Damentennis geboten. Betont lässig schwadronierte der bekennende Drogenliebhaber und Frontmann der Moldy Peaches mit verstimmtem Instrument und einmaliger Adlertechnik am Piano mutterseelenalleine durch’s Programm, das stellenweise in wahre Stand-Up-Comedy entartete, manchmal auch gefühlte Male zu oft. Dennoch grosses Entertainment, grundsympathisch dargeboten.
 
