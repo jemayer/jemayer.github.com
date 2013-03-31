@@ -281,14 +281,14 @@ article
 
 div.pagination {
   font-family: entypo;
-  font-size: 8em;
-  max-width: 16em;
+  font-size: 4.3em;
+  max-width: 12.2em;
   margin: 0 auto !important;
   padding-top: 4em !important;
   padding-bottom: 2em !important;
 
   a.next, a.next:visited, a.prev, a.prev:visited {
-    font-size: 8em;
+    font-size: 4.3em;
     text-decoration: none;
     color: $col-dark-grey !important;
   }
@@ -313,8 +313,8 @@ footer, header {
   }
   p.meta-pagination {
     font-family: entypo;
-    font-size: 8em;
-    max-width: 1.9em;
+    font-size: 4em;
+    max-width: 2.9em;
     padding: 0em;
     margin: 0 auto;
 
