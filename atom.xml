@@ -4,7 +4,7 @@
   <title><![CDATA[A lovely winter riot]]></title>
   <link href="http://jemayer.github.com/atom.xml" rel="self"/>
   <link href="http://jemayer.github.com/"/>
-  <updated>2013-03-03T19:38:10+01:00</updated>
+  <updated>2013-04-13T14:31:01+02:00</updated>
   <id>http://jemayer.github.com/</id>
   <author>
     <name><![CDATA[Jens Mayer]]></name>
@@ -15,34 +15,43 @@
   
   <entry>
     <title type="html"><![CDATA[Relaunch]]></title>
-    <link href="http://jemayer.github.com/blog/2013/02/19/relaunch/"/>
-    <updated>2013-02-19T16:18:00+01:00</updated>
-    <id>http://jemayer.github.com/blog/2013/02/19/relaunch</id>
-    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/softprocessed.jpg' title='Untitled by Jens Mayer - (CC BY-SA 3.0: some rights reserved)' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/softprocessed.jpg" title="Untitled by Jens Mayer - (CC BY-SA 3.0: some rights reserved)" ></a><figcaption>Untitled by Jens Mayer - (CC BY-SA 3.0: some rights reserved)</figcaption></figure></p>
+    <link href="http://jemayer.github.com/blog/2013/04/19/relaunch/"/>
+    <updated>2013-04-19T16:18:00+02:00</updated>
+    <id>http://jemayer.github.com/blog/2013/04/19/relaunch</id>
+    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/softprocessed.jpg' title='Untitled – by Jens Mayer – CC BY-SA 3.0 – some rights reserved' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/softprocessed.jpg" title="Untitled – by Jens Mayer – CC BY-SA 3.0 – some rights reserved" ></a><figcaption>Untitled – by Jens Mayer – CC BY-SA 3.0 – some rights reserved</figcaption></figure></p>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Finding Vivian Maier]]></title>
-    <link href="http://jemayer.github.com/blog/2013/02/17/finding-vivian/"/>
-    <updated>2013-02-17T15:44:00+01:00</updated>
-    <id>http://jemayer.github.com/blog/2013/02/17/finding-vivian</id>
-    <content type="html"><![CDATA[<p>John Maloof, ein 26jähriger Immobilienmakler und Hobbyhistoriker aus Chicago, ersteht für wenige hundert Dollar zigtausende Negative einer bis dahin unbekannten Künstlerin und stößt dabei vielleicht auf eine der talentiertesten Street-Fotografinnen aus der Mitte des vergangenen Jahrhunderts: Vivian Maier.</p>
+    <title type="html"><![CDATA[Osterfeuer]]></title>
+    <link href="http://jemayer.github.com/blog/2013/03/30/osterfeuer/"/>
+    <updated>2013-03-30T23:18:00+01:00</updated>
+    <id>http://jemayer.github.com/blog/2013/03/30/osterfeuer</id>
+    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/osterfeuer.jpg' title='Osterfeuer – by Jens Mayer – CC BY-SA 3.0 – some rights reserved' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/osterfeuer.jpg" title="Osterfeuer – by Jens Mayer – CC BY-SA 3.0 – some rights reserved" ></a><figcaption>Osterfeuer – by Jens Mayer – CC BY-SA 3.0 – some rights reserved</figcaption></figure></p>
 
-<p>Mittlerweile gibt es zur im April 2009 verstorbenen Künstlerin, die Zeit ihres Lebens als einfaches Kindermädchen wirkte, dank der jahrelangen Arbeit ihres Entdeckers eine Art <a href="http://vivianmaier.blogspot.de/" title="Vivian Maier: das offizielle Blog">Fotoblog</a>, eine offizielle <a href="http://www.vivianmaier.com/" title="Vivian Maier: die offizielle Homepage">Website</a> und demnächst einen eigenen Film:</p>
+<p>Ein erstes Mal Osterfeuer in Hamburg: Mit der besten Schwester von Welt im Schlepptau zogen wir nach Blankenese, um die Flammen am Elbstrand und ein magisch erleuchtetes Treppenviertel zu bewundern.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Warnemünde]]></title>
+    <link href="http://jemayer.github.com/blog/2013/03/29/warnemuende/"/>
+    <updated>2013-03-29T16:18:00+01:00</updated>
+    <id>http://jemayer.github.com/blog/2013/03/29/warnemuende</id>
+    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/wmuende.jpg' title='Warnemünde – by Jens Mayer - CC BY-SA 3.0 – some rights reserved' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/wmuende.jpg" title="Warnemünde – by Jens Mayer - CC BY-SA 3.0 – some rights reserved" ></a><figcaption>Warnemünde – by Jens Mayer - CC BY-SA 3.0 – some rights reserved</figcaption></figure></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hafenromantik]]></title>
+    <link href="http://jemayer.github.com/blog/2013/03/29/hafenromantik/"/>
+    <updated>2013-03-29T16:18:00+01:00</updated>
+    <id>http://jemayer.github.com/blog/2013/03/29/hafenromantik</id>
+    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/cranes.jpg' title='Hafenromantik – by Jens Mayer - CC BY-SA 3.0 – some rights reserved' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/cranes.jpg" title="Hafenromantik – by Jens Mayer - CC BY-SA 3.0 – some rights reserved" ></a><figcaption>Hafenromantik – by Jens Mayer - CC BY-SA 3.0 – some rights reserved</figcaption></figure></p>
 
-<iframe src="http://www.youtube.com/embed/2o2nBhQ67Zc "></iframe>
-
-
-<p>Es sind Szenen aus den amerikanischen Metropolen der 50er und 60er Jahre, meist in Schwarz-Weiß gehalten, eine Sammlung, die im Laufe der Zeit stetig wuchs und nach wie vor etliche bis heute noch nicht entwickelte Aufnahmen birgt.</p>
-
-<p>Der regionale TV-Sender WTTW aus Chicago liefert in Form einer kurzen aber sehenswerten Dokumentation weitere <a href="https://www.youtube.com/watch?v=HWEDOnBfDUI" title="WTTW Chicago: Vivian Maier, street photographer and nanny">interessante Hintergründe</a>, und auch Wikipedia nimmt sich des Lebens von <a href="http://en.wikipedia.org/wiki/Vivian_Maier" title="Wikipedia: Vivian Maier">Vivian Dorothea Maier</a> an:</p>
-
-<blockquote><p>&#8220;She was a Socialist, a Feminist, a movie critic, and a tell-it-like-it-is type of person. She learned English by going to theaters, which she loved. She wore a men&#8217;s jacket, men&#8217;s shoes and a large hat most of the time. She was constantly taking pictures, which she didn&#8217;t show anyone.&#8221;</p></blockquote>
-
-<p>Eine Geschichte, die nicht mehr ganz taufrisch ist, von ihrem märchenhaften Charme aber bis heute wenig verloren hat.</p>
+<p>Wer braucht schon Kerzen, wenn er Kräne hat?</p>
 ]]></content>
   </entry>
   
@@ -67,7 +76,7 @@
     <link href="http://jemayer.github.com/blog/2012/09/24/new-light-through-old-windows/"/>
     <updated>2012-09-24T21:40:00+02:00</updated>
     <id>http://jemayer.github.com/blog/2012/09/24/new-light-through-old-windows</id>
-    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/newlightwindow.jpeg' title='Untitled by Jens Mayer - (CC BY-SA 3.0: some rights reserved)' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/newlightwindow.jpeg" title="Untitled by Jens Mayer - (CC BY-SA 3.0: some rights reserved)" ></a><figcaption>Untitled by Jens Mayer - (CC BY-SA 3.0: some rights reserved)</figcaption></figure></p>
+    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/newlightwindow.jpeg' title='Untitled – by Jens Mayer – CC BY-SA 3.0 – some rights reserved' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/newlightwindow.jpeg" title="Untitled – by Jens Mayer – CC BY-SA 3.0 – some rights reserved" ></a><figcaption>Untitled – by Jens Mayer – CC BY-SA 3.0 – some rights reserved</figcaption></figure></p>
 ]]></content>
   </entry>
   
@@ -90,7 +99,7 @@
     <link href="http://jemayer.github.com/blog/2011/11/27/hk-portrait/"/>
     <updated>2011-11-27T22:31:00+01:00</updated>
     <id>http://jemayer.github.com/blog/2011/11/27/hk-portrait</id>
-    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/hk_portrait.jpeg' title='“HK Portrait” by Jens Mayer - (all rights reserved)' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/hk_portrait.jpeg" title="“HK Portrait” by Jens Mayer - (all rights reserved)" ></a><figcaption>“HK Portrait” by Jens Mayer - (all rights reserved)</figcaption></figure></p>
+    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/hk_portrait.jpeg' title='HK Portrait – by Jens Mayer – all rights reserved' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/hk_portrait.jpeg" title="HK Portrait – by Jens Mayer – all rights reserved" ></a><figcaption>HK Portrait – by Jens Mayer – all rights reserved</figcaption></figure></p>
 
 <p>Der etwas irreführende Titel dieses Portraits ist mitnichten internationalen Aufnahmen im fernnöstlichen Hong Kong geschuldet, sondern viel mehr ein Relikt der ursprünglichen Idee, das Bild als digital nachbearbeitete <a href="http://de.wikipedia.org/wiki/High-key-Fotografie" title="Wikipedia: High-Key-Fotografie">High-Key</a>-Fotografie zu veröffentlichen.</p>
 ]]></content>
@@ -101,11 +110,11 @@
     <link href="http://jemayer.github.com/blog/2011/07/10/portnahaven/"/>
     <updated>2011-07-10T22:46:00+02:00</updated>
     <id>http://jemayer.github.com/blog/2011/07/10/portnahaven</id>
-    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/pnaha-bl1.jpeg' title='“Portnahaven Backlight 1″ by Jens Mayer – (CC BY-SA 3.0: some rights reserved)' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/pnaha-bl1.jpeg" title="“Portnahaven Backlight 1″ by Jens Mayer – (CC BY-SA 3.0: some rights reserved)" ></a><figcaption>“Portnahaven Backlight 1″ by Jens Mayer – (CC BY-SA 3.0: some rights reserved)</figcaption></figure></p>
+    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/pnaha-bl1.jpeg' title='Portnahaven Backlight 1 – by Jens Mayer – CC BY-SA 3.0 – some rights reserved' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/pnaha-bl1.jpeg" title="Portnahaven Backlight 1 – by Jens Mayer – CC BY-SA 3.0 – some rights reserved" ></a><figcaption>Portnahaven Backlight 1 – by Jens Mayer – CC BY-SA 3.0 – some rights reserved</figcaption></figure></p>
 
 <p>Nachdem Regen und Wind die Luft über Islay kristallklar und rein gewaschen hatten, rissen die Wolken auf, um in der kleinen Bucht von <a href="http://www.islayinfo.com/portnahaven.html" title="Portnahaven, Islay, Scotland">Portnahaven</a> majestätisch einen der eher seltenen Ausblicke auf sonnengefluteten, blauen Himmel zu gewähren.</p>
 
-<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/pnaha-bl2.jpeg' title='“Portnahaven Backlight 2″ by Jens Mayer – (CC BY-SA 3.0: some rights reserved)' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/pnaha-bl2.jpeg" title="“Portnahaven Backlight 2″ by Jens Mayer – (CC BY-SA 3.0: some rights reserved)" ></a><figcaption>“Portnahaven Backlight 2″ by Jens Mayer – (CC BY-SA 3.0: some rights reserved)</figcaption></figure></p>
+<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/pnaha-bl2.jpeg' title='Portnahaven Backlight 2 – by Jens Mayer – CC BY-SA 3.0 – some rights reserved' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/pnaha-bl2.jpeg" title="Portnahaven Backlight 2 – by Jens Mayer – CC BY-SA 3.0 – some rights reserved" ></a><figcaption>Portnahaven Backlight 2 – by Jens Mayer – CC BY-SA 3.0 – some rights reserved</figcaption></figure></p>
 ]]></content>
   </entry>
   
@@ -114,7 +123,7 @@
     <link href="http://jemayer.github.com/blog/2011/07/10/finlaggan/"/>
     <updated>2011-07-10T22:37:00+02:00</updated>
     <id>http://jemayer.github.com/blog/2011/07/10/finlaggan</id>
-    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/finlaggan1.jpeg' title='“Finlaggan 1″ by Jens Mayer - (CC BY-SA 3.0: some rights reserved)' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/finlaggan1.jpeg" title="“Finlaggan 1″ by Jens Mayer - (CC BY-SA 3.0: some rights reserved)" ></a><figcaption>“Finlaggan 1″ by Jens Mayer - (CC BY-SA 3.0: some rights reserved)</figcaption></figure></p>
+    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/finlaggan1.jpeg' title='Finlaggan 1 – by Jens Mayer – CC BY-SA 3.0 – some rights reserved' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/finlaggan1.jpeg" title="Finlaggan 1 – by Jens Mayer – CC BY-SA 3.0 – some rights reserved" ></a><figcaption>Finlaggan 1 – by Jens Mayer – CC BY-SA 3.0 – some rights reserved</figcaption></figure></p>
 
 <p>Unsere originäre Planung für das <a href="[http://www.theislayfestival.co.uk/index.php]" title="The Feis Ile on Islay, Scotland">Feis Ile 2011</a> sah heroische Fahrradtouren vor, die wir als Netz aus Schweiß und Blut über <a href="http://de.wikipedia.org/wiki/Islay" title="Islay, Scotland">die gesamte Insel</a> legen wollten, edlen Rittern gleich von Destillerie zu Destillerie reitend, eingedeckt mit Gelsätteln, wasserdichten Fahrradhosen und strapazierfähigen Funktionshandschuhen. Das feucht-kühle Klima Schottlands Innerer Hebriden sollte den hartgesottenen Haudegen in uns nichts anhaben können, von wegen Wind und Wetter, es galt unsere Losung jedem Orkan unmissverständlich ins Gesicht zu schreien:</p>
 
@@ -124,7 +133,7 @@
 
 <p>Aus unseren Mieträdern wurde ein Mietwagen, aus Rittern sterbliche Touristen.</p>
 
-<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/finlaggan2.jpeg' title='“Finlaggan 2″ by Jens Mayer – (CC BY-SA 3.0: some rights reserved)' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/finlaggan2.jpeg" title="“Finlaggan 2″ by Jens Mayer – (CC BY-SA 3.0: some rights reserved)" ></a><figcaption>“Finlaggan 2″ by Jens Mayer – (CC BY-SA 3.0: some rights reserved)</figcaption></figure></p>
+<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/finlaggan2.jpeg' title='Finlaggan 2 – by Jens Mayer – CC BY-SA 3.0 – some rights reserved' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/finlaggan2.jpeg" title="Finlaggan 2 – by Jens Mayer – CC BY-SA 3.0 – some rights reserved" ></a><figcaption>Finlaggan 2 – by Jens Mayer – CC BY-SA 3.0 – some rights reserved</figcaption></figure></p>
 
 <p>Ein kleiner Trost blieb bei all unserer Schmach, gewann die Wellness doch ihre in heimeligen Wohlfühloasen verloren gegangene Männlichkeit eindrucksvoll zurück: Es war der Hagelschauer von <a href="http://www.finlaggan.com/" title="Finlaggan, Islay, Scotland">Finlaggan</a>, welcher einem Kärcher-Sandstrahl-Biopeeling gleich unserer maskulin gegerbten Heldenhaut wohldurchblutende Frische und ungeahnte Jugend in die Poren stanzte. Dem hochprozentigen Raubbau am eigenen Körper wurde so – zumindest vorübergehend – effektiv entgegengewirkt.</p>
 ]]></content>
@@ -135,7 +144,7 @@
     <link href="http://jemayer.github.com/blog/2009/09/16/castell-de-santueri/"/>
     <updated>2009-09-16T22:52:00+02:00</updated>
     <id>http://jemayer.github.com/blog/2009/09/16/castell-de-santueri</id>
-    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/castell_de_santueri.jpeg' title='“Castell de Santueri” by Jens Mayer - (CC BY-SA 3.0: some rights reserved)' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/castell_de_santueri.jpeg" title="“Castell de Santueri” by Jens Mayer - (CC BY-SA 3.0: some rights reserved)" ></a><figcaption>“Castell de Santueri” by Jens Mayer - (CC BY-SA 3.0: some rights reserved)</figcaption></figure></p>
+    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/castell_de_santueri.jpeg' title='Castell de Santueri – by Jens Mayer – CC BY-SA 3.0 – some rights reserved' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/castell_de_santueri.jpeg" title="Castell de Santueri – by Jens Mayer – CC BY-SA 3.0 – some rights reserved" ></a><figcaption>Castell de Santueri – by Jens Mayer – CC BY-SA 3.0 – some rights reserved</figcaption></figure></p>
 
 <p>Eindruck eines spätsommerlichen Abstechers an die Ostküste Mallorcas, welche mich einmal mehr um <a href="http://de.wikipedia.org/wiki/David_Foster_Wallace" title="Wikipedia: David Foster Wallace">David Foster Wallace</a> trauern ließ, der zweifelsohne auch über diesen geriatrischen Vorhof zur Hölle manch schrecklich amüsanten Reisebericht zu verfassen gehabt hätte.</p>
 
@@ -164,7 +173,7 @@
     <link href="http://jemayer.github.com/blog/2009/04/15/the-girl-with-the-cap/"/>
     <updated>2009-04-15T01:57:00+02:00</updated>
     <id>http://jemayer.github.com/blog/2009/04/15/the-girl-with-the-cap</id>
-    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/the_girl_with_the_cap.jpeg' title='“The Girl with the Cap” by Jens Mayer - (all rights reserved)' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/the_girl_with_the_cap.jpeg" title="“The Girl with the Cap” by Jens Mayer - (all rights reserved)" ></a><figcaption>“The Girl with the Cap” by Jens Mayer - (all rights reserved)</figcaption></figure></p>
+    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/the_girl_with_the_cap.jpeg' title='The Girl with the Cap – by Jens Mayer – all rights reserved' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/the_girl_with_the_cap.jpeg" title="The Girl with the Cap – by Jens Mayer – all rights reserved" ></a><figcaption>The Girl with the Cap – by Jens Mayer – all rights reserved</figcaption></figure></p>
 
 <p>Dieses Portrait ist ein weiteres Ergebnis meiner Experimente mit <a href="http://jemayer.github.com/blog/2009/02/21/selbst-ist-das-licht/" title="Jens Mayer: Selbst ist das Licht">einem aus Baumarktartikeln assemblierten Ringlicht</a> und für mich der klare Favorit dieser kleinen Serie.</p>
 ]]></content>
@@ -175,7 +184,7 @@
     <link href="http://jemayer.github.com/blog/2009/04/13/no-more-self-portraits/"/>
     <updated>2009-04-13T02:25:00+02:00</updated>
     <id>http://jemayer.github.com/blog/2009/04/13/no-more-self-portraits</id>
-    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/ep1.jpeg' title='&#34;EP 1&#34; by Jens Mayer – (all rights reserved)' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/ep1.jpeg" title="&#34;EP 1&#34; by Jens Mayer – (all rights reserved)" alt="&#34;EP 1&#34; by Jens Mayer – (all rights reserved)"></a><figcaption>&#34;EP 1&#34; by Jens Mayer – (all rights reserved)</figcaption></figure></p>
+    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/ep1.jpeg' title='EP 1 – by Jens Mayer – all rights reserved' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/ep1.jpeg" title="EP 1 – by Jens Mayer – all rights reserved" ></a><figcaption>EP 1 – by Jens Mayer – all rights reserved</figcaption></figure></p>
 
 <p>Gelogen, zugegeben: In Fällen akuter Schübe chronisch-pathologischer Eitelkeiten wird ein Selbstbildnis ab und an unausweichlich bleiben, auch und gerade <a href="http://jemayer.github.com/blog/2009/02/22/no-narcist/" title="Jens Mayer: No Narcist">aus Gründen fotografischer Neugierde</a>. Eine fotogene Partnerin vor und mich hinter der Kamera empfinde ich dennoch als das selbstverständlichere Setting, und so hatten wir an diesem Ostermontag in besagter Konstellation ein wenig Zeit und viel Spass.</p>
 ]]></content>
@@ -198,7 +207,7 @@
     <link href="http://jemayer.github.com/blog/2009/02/22/no-narcist/"/>
     <updated>2009-02-22T02:36:00+01:00</updated>
     <id>http://jemayer.github.com/blog/2009/02/22/no-narcist</id>
-    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/ringlight2.jpeg' title='“Ringlight 2″ by Jens Mayer – (all rights reserved)' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/ringlight2.jpeg" title="“Ringlight 2″ by Jens Mayer – (all rights reserved)" ></a><figcaption>“Ringlight 2″ by Jens Mayer – (all rights reserved)</figcaption></figure></p>
+    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/ringlight2.jpeg' title='Ringlight 2 – by Jens Mayer – all rights reserved' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/ringlight2.jpeg" title="Ringlight 2 – by Jens Mayer – all rights reserved" ></a><figcaption>Ringlight 2 – by Jens Mayer – all rights reserved</figcaption></figure></p>
 
 <p>Durchaus nicht ohne jede Spur von Eitelkeit auf dieser Welt wandelnd, ich bin fürwahr kein Narziss und wünschte mir vorbehaltlos fotogenere Modelle vor die Linse. <a href="http://jemayer.github.com/blog/2009/02/21/selbst-ist-das-licht/" title="Jens Mayer: Selbst ist das Licht">Manche Dinge</a> aber machen derart massiven Spass, dass sie auch frei von greifbaren Drittmotiven spontan und ausführlich eigenevaluiert werden müssen.</p>
 ]]></content>
@@ -209,7 +218,7 @@
     <link href="http://jemayer.github.com/blog/2009/02/21/selbst-ist-das-licht/"/>
     <updated>2009-02-21T02:40:00+01:00</updated>
     <id>http://jemayer.github.com/blog/2009/02/21/selbst-ist-das-licht</id>
-    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/ringlight.jpeg' title='&#34;Ringlight&#34; by Jens Mayer – (all rights reserved)' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/ringlight.jpeg" title="&#34;Ringlight&#34; by Jens Mayer – (all rights reserved)" alt="&#34;Ringlight&#34; by Jens Mayer – (all rights reserved)"></a><figcaption>&#34;Ringlight&#34; by Jens Mayer – (all rights reserved)</figcaption></figure></p>
+    <content type="html"><![CDATA[<p><figure class='img_center'><a href='http://jemayer.github.com/images/fotos_eigene/ringlight.jpeg' title='Ringlight – by Jens Mayer – all rights reserved' rel='fancyGallery'' class='fancybox'><img src="http://jemayer.github.com/images/fotos_eigene/ringlight.jpeg" title="Ringlight – by Jens Mayer – all rights reserved" ></a><figcaption>Ringlight – by Jens Mayer – all rights reserved</figcaption></figure></p>
 
 <p>Obwohl handwerklich auf ganzer Linie talentbefreit, musste ich nach Lektüre von <a href="http://kwerfeldein.de/index.php/2008/07/26/faszination-ringlicht-bauen-nicht-bauen-lassen/" title="Kwerfeldein: Faszinatoin Ringlicht">Sebastians Gastartikel auf kwerfeldein.de</a> schleunigst selbst Hand anlegen und mir aus gängigen Baumarktartikeln ein ureigenes Ringlicht assemblieren. Die Neugierde auf fotografische Experimente war schließlich größer als die Angst vor einer weiteren Schmach im real nicht existierenden Bastelkeller, und selbst wenn manch wackeliger Kontakt noch der letzterlösenden Fixierung durch gekonnt grobmotorisch aufgetragenen Heisskleber harrt: die Werkarbeiten haben brauchbares hervorgebracht, so dass mit ausgewählten Kostproben zukünftiger Einsätze unbedingt zu rechnen ist.</p>
 ]]></content>
@@ -247,44 +256,6 @@
 <p>Doch auch die kleineren Perlen sollen nicht verschwiegen werden. Erkan Yanar weckte - eventuell ein wenig zu flapsig präsentiert - den administrativen Spieltrieb und lädt so zu Experimenten mit <a href="http://openvz.org/Main_Page" title="OpenVZ - Container based Virtualization for Linux">OpenVZ</a> ein, während Sebastian Kügler <a href="http://www.kde.org/" title="The KDE Desktop Environment">KDE</a> 4.1 und ein paar bescheidene Sneak Previews aus dem aktuellen SVN-Branch vorstellte. Praxisnahe Vorträge zu den Themen <a href="http://proxytunnel.sourceforge.net/" title="Proxytunnel: Punching Holes in HTTP(S) Proxies">Proxytunnel</a> von Dag Wieers und IPsec- und SSL-VPNs von Johannes Hubertz waren wie auch die Einführungen zu <a href="http://www.nagios.org/" title="Nagios: The Standard in Open Source Monitoring">Nagios</a> von Debian-Paket-Maintainer Alexander Wirt und dem <a href="http://www.linux-ha.org/wiki/Main_Page" title="Linux-HA: Open Source High-Availability Software for Linux">Linux-HA</a>-Clusterprojekt von Michael Schwartzkopff für den Berufsadmin quasi Pflichtprogramm. Kollektive Seufzer und leidgeprüftes Kopfnicken lösten “Programmdokumentation leicht gemacht” von Carola Kummert und die unterhaltsame, mit “Systemadministration++” passend betitelte Präsentation (siehe auch <a href="http://adminzen.org/" title="The Admin Zen: Keep it up and running">adminzen.org</a>) von <a href="http://grml.org/" title="Grml: Debian based Linux Live System">Grml</a>-Vater Michael Prokop aus. Auch hier waren es weniger die bahnbrechenden Neuigkeiten als vielmehr eine gruppendynamische Katharsis, welche durchaus zu neuen oder zumindest wieder ausgegrabenen Sichtweisen führen konnte. Etwas zuviel Inhalt wollte Fabrizio Manfredi in seinen Vortrag “How to design and build an inexpensive distributed file system” legen - nach einer Einführung in die Geschichte und Funktionsweise von <a href="http://www.openafs.org/" title="Open Source release of the AFS distributed filesystem">OpenAFS</a> blieb zu wenig Zeit für <a href="http://hadoop.apache.org/" title="Hadoop: Distributed Processing of large Data Sets across Clusters of Computers">Hadoop</a>, <a href="http://ceph.com/" title="Ceph: A Distributed Object Store and File System">Ceph</a> &amp; Co. Den größten Funfaktor schliesslich brachten Geert-Dietger Hoffmann und Dag Wieers durch ihren Einsatz der Wiimote als Präsentationswerkzeug (<a href="http://programm.froscon.org/2008/attachments/55_wiimote-froscon-2008.pdf" title="WiiPres: Giving presentations with your WiiMote">Slides als PDF</a>) mit, ihre Anwendungsbeispiele spannten von zweifelsohne praktisch über herrlich skurill bis hin zur vollkommen bespassten Sinnbefreiung einen kurzweiligen Bogen.</p>
 
 <p>Fazit: Die FrOSCon 2008 hat Spass gemacht. Neben den guten Talks beeindruckte das auf vielen gross gewachsenen Veranstaltungen verloren geglaubte Communityfeeling - oft versammelte sich ein nicht unerheblicher Teil der eigenen Blogroll zum gleichen Vortrag. Ein Wunsch zur Verbesserung auf hohem Niveau bleibt das Kennzeichnen des inhaltlichen Anspruchs der Veranstaltungen - ob für Einsteiger, Intermediates oder illuminiert Initiierte.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Turin Brakes]]></title>
-    <link href="http://jemayer.github.com/blog/2008/05/20/turin-brakes/"/>
-    <updated>2008-05-20T18:52:00+02:00</updated>
-    <id>http://jemayer.github.com/blog/2008/05/20/turin-brakes</id>
-    <content type="html"><![CDATA[<p>Etwas wirklich umfassendes, das einer Rezension auch nur im Entferntesten nahe käme, wird das hier nun nicht, dazu bin ich zu müde, zu heiser, zu prämalade. Dennoch sei soviel gesagt - die <a href="http://turinbrakes.com/" title="Homepage: The Turin Brakes">Turin Brakes</a> sind unbedingt das sympathischste an Klangschaustellern, was die Welt neben <a href="http://www.travisonline.com/" title="Homepage: Travis">Travis</a> zu bieten hat. Zwei Gitarren, ein Kontrabass, Spaß am Spiel und saitenschmatzendes Handwerk: selbst wenn sich der Mann am Mischpult anfangs schmerzhaft die Blöße gab, das war groß. So klingt Leben in Musik. Stimmen aus dem Orbit und sphärische Jams, Pink Floyd ohne Plug, nicht ganz, aber fast. Nur Panic Attack, das habe ich vermisst. Ein nächtliches Fazit unterm Strich aus der Alten Feuerwache in Mannheim: Doppelplusgut. Gute Nacht, Future Boy.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Whisky Tasting mit Stewart Laing]]></title>
-    <link href="http://jemayer.github.com/blog/2007/11/24/whisky-tasting-mit-stewart-laing/"/>
-    <updated>2007-11-24T18:59:00+01:00</updated>
-    <id>http://jemayer.github.com/blog/2007/11/24/whisky-tasting-mit-stewart-laing</id>
-    <content type="html"><![CDATA[<p>Seit nun mehr als 25 Jahren führen die beiden Brüder Fred und Stewart Laing das 1948 von ihrem Vater Fred Douglas gegründete Unternehmen <a href="http://www.douglaslaing.com/" title="Douglas Laing: Blender Bottler and Malt Mater">Douglas Laing &amp; Co</a> in eigener Regie weiter. Das opportune Credo der unabhängigen Abfüller schottischer Malts aus Glasgow: “No Colouring! No Chill Filtration! No Nonsense!”.</p>
-
-<p>Im Vorfeld der 9. internationalen Whisk(e)y-Austellung <a href="http://www.interwhisky.com/" title="InterWhisky: Internationale Fachmesse für Whiskykultur">InterWhisky</a> in Frankfurt lud Stewart Laing im hessischen Heppenheim - und im klassischen Schottenrock - zum Tasting einer kleinen Auswahl der eigenen Abfüllungen. Acht Single Malts wurden in den Räumlichkeiten der <a href="http://www.thewhiskytrader.de/" title="Wein- und Getränkewelt Weiser">Getränkewelt Weiser</a> kredenzt, stets fachkundig und unterhaltsam von Stewart Laing begleitet, der es sich zum Glück nicht nicht nehmen ließ, unzählige interessante, witzige und lehrreiche Anekdoten aus seinem über Jahrzente gesammelten Erfahrungsschatz mit den Gästen zu teilen.</p>
-
-<p>Der Abend im chronologischen Überblick:</p>
-
-<ul>
-<li>Glenrothes 1990, 16 Jahre, Rum Finish</li>
-<li>Mortlach 1994, 12 Jahre, Sherry Butt</li>
-<li>Benrinnes 1990, 14 Jahre, Sherry Butt</li>
-<li>Laphroaig, 8 Jahre, Premier Barrel</li>
-<li>Dufftown 1995, 12 Jahre, Sherry Finnish</li>
-<li>Scapa 1991, 16 Jahre, Refill Hogshead</li>
-<li>Ardmore 1977, 30 Jahre, Sherry Butt</li>
-<li>Caol Ila 1979, 28 Jahre, Hogshead</li>
-</ul>
-
-
-<p>Dem üblich antiseptsch wirkenden Laphroaig, dessen intensive, jodgeprägte Note den Trinker gewohnt unnachgiebig konservierend ausräuchert, folgte eine längere Pause zur geschmacklichen Rekalibrierung, in der neben Brötchen, Knackwürsten und englischem Käse in Whisky eingelegter Schinken gereicht wurde.</p>
-
-<p>Meine Höhepunkte des Abends: Der 12 Jahre alte Mortlach mit seinem intensiven, etwas bitteren Fassgeruch und einer sehr fruchtigen Mitte, der 30 Jahre alte Ardmore, der zwar etwas schwach auf der Brust, damit aber sehr mild und dennoch unglaublich balanciert und ausgewogen wirkte, sowie (natürlich) der 28jährige Caol Ila, der den Vergleich mit meinem bisherigen Liebling - dem 1979er Caol Ila aus Lorne Mackillops Fassabfüllung - nicht scheuen muss. Die beherrschte, rauchige Komplexität dieses Whiskys mit ihren gegenspielenden, blumigen Aromen ist beiden Vertretern zu eigen und macht sie zu einzigartigen Geschmackskaleidoskopen der höhreren Volumenklasse.</p>
 ]]></content>
   </entry>
   
