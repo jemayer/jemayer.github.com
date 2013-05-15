@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Zwischenstopp: Bodensee"
+date: 2013-05-15 21:20
+comments: true
+categories: fotografie
+---
+
+{% imgcap img_center /images/fotos_eigene/bodensee.jpg B&W Dolomites – by Jens Mayer – CC BY-SA 3.0 – some rights reserved %}
