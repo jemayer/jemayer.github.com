@@ -281,22 +281,32 @@ article
 
 div.pagination {
   font-family: entypo;
-  font-size: 4.3em;
-  max-width: 12.2em;
+  font-size: 6.3em;
+  max-width: $nav-max-width * 0.8;
   margin: 0 auto !important;
-  padding-top: 4em !important;
+  padding-top: 3em !important;
   padding-bottom: 2em !important;
 
   a.next, a.next:visited, a.prev, a.prev:visited {
-    font-size: 4.3em;
+    font-size: 6.3em;
     text-decoration: none;
     color: $col-dark-grey !important;
+    padding: none; margin: none;
   }
   a.next:hover, a.prev:hover {
     color: $col-mid-red !important;
   }
 }
 
+span.pagination {
+  font-family: $sans;
+  font-size: .1em;
+  display: block;
+  padding-top: .8em;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .1em;
+}
 footer, header {
   p.meta {
     text-align: center;
