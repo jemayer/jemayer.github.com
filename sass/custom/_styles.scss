@@ -2,6 +2,7 @@
 // Add styles here to make changes without digging in too much
 // html { background: image-url('bg-top.jpg') center top no-repeat, image-url('bg-tile.jpg') repeat; }
 html { background: image-url('spotbg.png') repeat $col-old-white; }
+#html { background: rgba(248, 248, 248, 1); }
 body { font-family: $sans2; }
 
 // Hide sidebar, remove content border
@@ -206,8 +207,8 @@ article
    list-style-position:inside;
    margin-top: 1em;
    margin-bottom: 1.5em;
-   font-family: $sans2;
-   font-size: .8em;
+   font-family: $sans3;
+   font-size: .7em;
    font-weight: 400;
    line-height: 1.5em;
   }
@@ -217,8 +218,8 @@ article
     text-indent: -1em;
   }
   p {
-    font-family: $sans2;
-    font-size: .85em;
+    font-family: $sans3;
+    font-size: .75em;
     font-weight: 400;
     margin-bottom: 1.5em;
     line-height: 1.5em;
@@ -282,10 +283,10 @@ article
 div.pagination {
   font-family: entypo;
   font-size: 6.3em;
-  max-width: $nav-max-width * 0.8;
+  max-width: 14em;
   margin: 0 auto !important;
   padding-top: 3em !important;
-  padding-bottom: 2em !important;
+  padding-bottom: 3em !important;
 
   a.next, a.next:visited, a.prev, a.prev:visited {
     font-size: 6.3em;
