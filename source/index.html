@@ -12,10 +12,14 @@ layout: default
 
   <div class="pagination">
     {% if paginator.next_page %}
-    <a class="prev" href="{{paginator.next_page}}">&#59225;<span class="pagination">PREV</span></a>
+    <a class="prev" href="{{paginator.next_page}}">&#59225;</a>
+    {% else %}
+    <span class="noprev">&#59225;</span>
     {% endif %}
     {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">&#59226;<span class="pagination">NEXT</span></a>
+    <a class="next" href="{{paginator.previous_page}}">&#59226;</a>
+    {% else %}
+    <span class="nonext">&#59226;</span>
     {% endif %}
   </div>
 </div>
