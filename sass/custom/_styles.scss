@@ -334,7 +334,7 @@ footer, header {
 
     a.basic-alignment {
      text-decoration: none;
-     line-height: 1em;
+
      color: $col-dark-grey;
      padding: 0em;
      margin: 0em;
@@ -387,6 +387,9 @@ span.icons {
   a:hover { color: $col-mid-red; text-decoration: none; }
 
   display: inline;
+
+  &.noprev  { float: left;   color: #999; }
+  &.nonext  { float: right;  color: #999; }
 }
 
 
