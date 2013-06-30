@@ -10,3 +10,4 @@
 ## Long Term
 
 * CSS/Theme aufräumen, kein Custom, überflüssige Deklarationen und Includes entfernen
+* Templategerüst auf das notwendige Minimum zurechtstutzen
