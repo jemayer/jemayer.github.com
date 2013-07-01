@@ -3,11 +3,13 @@
 // If you love to use Web Fonts, you also need to add some lines to source/_includes/custom/head.html
 @font-face {
   font-family: "entypo-social";
-  src: url('/assets/entypo-social/entypo-social.ttf') format('truetype'), url('/assets/entypo-social/entypo-social.eot') format('embedded-opentype'), url('/assets/entypo-social/entypo-social.woff') format('woff');
+  src: url('/assets/entypo-social/entypo-social.eot');
+  src: url('/assets/entypo-social/entypo-social.eot?#iefix') format('embedded-opentype'), url('/assets/entypo-social/entypo-social.woff') format('woff'), url('/assets/entypo-social/entypo-social.ttf') format('truetype');
 }
 @font-face {
   font-family: entypo;
-  src: url('/assets/entypo/entypo.ttf') format('truetype'), url('/assets/entypo/entypo.eot') format('embedded-opentype'), url('/assets/entypo/entypo.woff') format('woff');
+  src: url('/assets/entypo/entypo.eot');
+  src: url('/assets/entypo/entypo.eot?#iefix') format('embedded-opentype'), url('/assets/entypo/entypo.woff') format('woff'), url('/assets/entypo/entypo.ttf') format('truetype');
 }
 
 $sans: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;

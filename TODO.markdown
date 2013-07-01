@@ -4,7 +4,8 @@
 * Externe Blog-URL auf GitHub legen (DNS, 1&1)
 * OpenGraph Geshizzle: http://ogp.me
 
-* Entypo-Social: Font Mapping läuft nicht auf Chrome/Win (evtl. IcoMoon nutzen)
+* Entypo-Social: Font Mapping läuft nicht auf Chrome/Win, Opera/Win (evtl. IcoMoon nutzen)
+* Entypo-Social: Font Rendering ausgefranst auf Chrome/Win, Opera/Win
 * Link-Hover-Problematik (Safari)
 
 ## Long Term
