@@ -15,4 +15,5 @@ group :development do
   gem 'liquid', '~> 2.3.0'
 end
 
+gem 'directory_watcher', '1.4.1'
 gem 'sinatra', '~> 1.3.3'
